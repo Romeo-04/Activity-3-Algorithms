@@ -213,7 +213,7 @@ int main() {
         }
 
         tryAgain3:
-        cout << endl << "Do you want to try another? [y for yes and press any key to exit]: ";
+        cout << endl << "Do you want to try another? [y for yes or press any key to exit]: ";
 
         if (!(cin >> choice)) {
             cout << "Invalid input. Please enter a valid choice." << endl;
